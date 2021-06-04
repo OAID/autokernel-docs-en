@@ -5,16 +5,16 @@ AutoKernel provides docker image，where Halide and Tengine have been installed:
 ## Docker Image: 
 - cpu
     ```
-    docker pull openaialb/autokernel
+    docker pull openailab/autokernel
     ```
 - cuda: 
     ```
-    nvidia-docker pull openaialb/autokernel:cuda
+    nvidia-docker pull openailab/autokernel:cuda
     ```
     [NOTE]: To use cuda image, you need to use nvidia-docker, detalis see here [nvidia-docker install-guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#installing-on-ubuntu-and-debian).
 - opencl:
     ```
-    docker pull openaialb/autokernel:opencl
+    docker pull openailab/autokernel:opencl
     ```
 ## Dockerfile   
  Detailed Dockerfile see
